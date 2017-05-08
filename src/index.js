@@ -78,7 +78,6 @@ class UglifyJsPlugin {
 								warnings.push(warning);
 							};
 						}
-						uglify.base54.reset();
 						let ast = uglify.parse(input, {
 							filename: file
 						});
